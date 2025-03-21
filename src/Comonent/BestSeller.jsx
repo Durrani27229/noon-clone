@@ -78,7 +78,7 @@ const BestSeller = () => {
     <div className="container mx-auto px-4 mt-5 mb-5 rounded-3xl pt-5 pb-5 bg-gray-100">
     <div className="flex justify-between items-center px-3 mb-2 ">
       <p className="font-bold font-res text-3xl flex gap-1  text-red-500 p-2">
-        BEST SELLER IN
+        BEST IN
         <span className="font-bold font-res text-3xl text-black">
            HOME APPLIANCES
         </span>

@@ -16,11 +16,11 @@ const Links = () => {
     ]
 
 return(
-    <div className="header-links">
+    <div className="header-links container mx-auto">
         {
             linksArray.map((items,index) => {
                 return (
-                    <div key={index} className="px-2">
+                    <div key={index} className="px-4">
                         <p >{items}</p>
                     </div>
                 )

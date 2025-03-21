@@ -21,7 +21,7 @@ const Saving = () => {
         <Btn title="View All" color="black" textColor="white" class="btn-res" />
       </div>
 
-      <div className='flex justify-center gap-4 mt-3  '>
+      <div className='mother flex justify-center gap-4 mt-3  '>
        {
             link.map((item,index) => {
                 return (

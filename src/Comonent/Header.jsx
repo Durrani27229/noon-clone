@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div className="header">
       
-      {/* Logo Section */}
+      <div className="header container mx-auto px-4">
+        {/* Logo Section */}
       <div className="logo flex items-center justify-center">
         <img
           src="https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg"
@@ -44,8 +45,9 @@ const Header = () => {
 
       {/* Wishlist & Cart (Hidden on Small Screens) */}
       <div className="hide-on-small1 addCart flex items-center gap-5  min-h-[50px]">
-        <HeartOutlined />
-        <ShoppingCartOutlined />
+        <HeartOutlined className="text-2xl" />
+        <ShoppingCartOutlined className="text-2xl"  />
+      </div>
       </div>
     </div>
   );

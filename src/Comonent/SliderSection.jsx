@@ -9,8 +9,8 @@ const SliderSection = () => {
         background: '#364d79',
       };
   return (
-    <div className="slider grid sm:grid-cols-12 ">
-      <div className=" sm:col-span-8 grid-cols-12">
+    <div className="container mx-auto slider">
+      <div className=" slider1">
         <Carousel autoplay>
           <div>
             <img src="https://f.nooncdn.com/mpcms/EN0001/assets/528577cf-72d7-43c8-8323-b8ad4914d63c.png"  alt="" />
@@ -24,7 +24,7 @@ const SliderSection = () => {
           
         </Carousel>
       </div>
-      <div className="sm:col-span-4 slider-deal flex items-center grid-cols-12 ">
+      <div className="slider2 flex ">
         <img src="https://f.nooncdn.com/mpcms/EN0001/assets/12d3e1cf-7458-4783-aae2-604ae8126d54.png" alt=""   />
         <img src="https://f.nooncdn.com/mpcms/EN0001/assets/8d89fcb2-68e0-4fa7-83a7-11fba284094e.png" alt="" />
       </div>

@@ -26,12 +26,12 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
-      {/* <Links /> */}
-      {/* <Banner /> */}
-      {/* <SliderSection /> */}
-      {/* <Section1 /> */}
-      {/* <Section2 />   */}
+      <Header />
+      <Links />
+      <Banner value="https://f.nooncdn.com/mpcms/EN0001/assets/a6706a76-d65d-4781-aa66-fbcaa92affcc.png"/>
+      <SliderSection />
+      <Section1 />
+      <Section2 />  
       <Recommended />
       <MothersDay />
       <Banner value="https://f.nooncdn.com/ads/banner-1440x1440/en_dk_uae-sfu-01.1741152511.1594114.png"/>

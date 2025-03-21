@@ -8,7 +8,8 @@ import { electronicsCategories , fashionCategories ,
 const FooterLinks = () => {
  
     return (
-        <div className="grid hide-on-small sm:grid-cols-5 lg:grid-cols-7 xl:grid-cols-7 gap-3 py-2 px-4 mt-5 mb-5 " >
+        <div className="container mx-auto">
+            <div className="grid hide-on-small sm:grid-cols-5 lg:grid-cols-7 xl:grid-cols-7 gap-3 py-2 px-4 mt-5 mb-5 " >
             
             <div>
                 <p className="font-bold text-xs mb-2">ELECTRONICS</p>
@@ -86,6 +87,7 @@ const FooterLinks = () => {
                     )
                 })}
             </div>
+        </div>
         </div>
     )
     

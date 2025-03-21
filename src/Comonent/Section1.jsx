@@ -18,7 +18,7 @@ const Section1 = () => {
 
 
     return (
-        <div className="section1">
+        <div className="section1 container mx-auto">
             {
                 links.map((items,index) => {
                     return(

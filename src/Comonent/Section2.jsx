@@ -16,10 +16,10 @@ const Section2 = () => {
     ]
 
   return (
-    <div className='section2'>
+    <div className='section2 container mx-auto  '>
       <div className='section2-main'>
         <p className='font-bold text-2xl p-2'>MORE REASON TO <span className='font-bold text-red-500'>SHOP</span></p>
-       <div className='flex justify-center '>
+       <div className='flex flex-wrap justify-center gap-4 '>
        {
             link1.map((item,index) => {
                 return (
@@ -34,7 +34,7 @@ const Section2 = () => {
       </div>
       <div className='section2-main'>
       <p className='font-bold text-2xl p-2'>MORE REASON TO <span className='font-bold text-red-500'>SHOP</span></p>
-       <div className='flex flex-wrap justify-center '>
+       <div className='flex flex-wrap justify-center gap-4  '>
        {
             link2.map((item,index) => {
                 return (

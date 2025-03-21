@@ -1,6 +1,7 @@
 const FooterEnd = () => {
     return (
-       <div className="bg-[#f3f4f8] min-h-[80px] flex flex-col mt-5">
+       <div className="bg-[#f3f4f8] ">
+        <div className="min-h-[80px] container mx-auto flex flex-col mt-5"> 
         <div className="flex justify-between p-4 footer-end">
             <div>
                 <p className="text-sm text-gray-400">© 2025 noon. All Rights Reserved</p>
@@ -24,6 +25,7 @@ const FooterEnd = () => {
                 <li>Privacy Policy</li>
                 <li>Cunsumer Right</li>
             </ul>
+        </div>
         </div>
        </div>
     )

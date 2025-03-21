@@ -1,7 +1,8 @@
 import { FaFacebook , FaTwitter , FaInstagram , FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
     return (
-       <div className="flex justify-around min-h-[70px]">
+       <div >
+        <div className="contact container mx-auto flex justify-around min-h-[70px]">
         <div className="flex flex-col items-center justify-around">
             <div  >
             <p>Shop On The Go</p>
@@ -12,7 +13,7 @@ const Contact = () => {
                 <img src="https://f.nooncdn.com/s/app/com/noon/images/Huawei-icon.png" width={83} height={50} alt="gallery" />
             </div>
         </div>
-        <div className="flex flex-col justify-around items-center">
+        <div className="flex flex-col justify-around items-center"> 
             <div>
                 <p>CONNECT WITH US</p>
                 
@@ -27,6 +28,7 @@ const Contact = () => {
                 <img src="https://f.nooncdn.com/s/app/com/noon/images/social-media-footer-linkedIn.svg" alt="linkdin" />
             </div>
         </div>
+       </div>
        </div>
     )
 }

@@ -1,3 +1,6 @@
+body{
+  background-color: #f7f7fa;
+}
 .header{
   display: flex;
   background-color: #feee00;
@@ -23,21 +26,30 @@
   display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
     /* padding: 0 15px; */
     min-height: 44px;
     font-size: 13px;
     letter-spacing: .2px;
     font-weight: 600;
-    background-color: #dadce3;
+    background-color: #fcfbf4;
     overflow-x: auto;
+}
+.slider{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.slider1{
+  width: 60%;
+}
+.slider2{
+  width: 40%;
 }
 .slider img{
   height: 160px;
   width: 100%;
-}
-.slider-deal img{
-
-  width: 100% !important;
 }
 .section1{
   padding: 10px;
@@ -45,43 +57,69 @@
   min-height: 150px;
   background: #FFF4D0;
   display: flex;
-  /* flex-wrap: wrap; */
-  gap: 2px;
+  flex-wrap: wrap;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 
 }
+.mother{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
+.mother img{
+  width: 187px;
+  height: 330px;
+}
 .section1 img{
   width: 90px;
-  height: 100px;
+  height: 140px;
 }
 .section2{
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 10px;
-  width: 100%;
+  /* flex-wrap: wrap; */
+  /* margin: 10px; */
+  /* width: 100%; */
   gap: 5px;
   
 }
 .section2-main{
   background-color: #fee367;
   width: 33%;
-  height: 550px;
+  min-height: 550px;
   border-radius: 15px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
 
 }
 .sec2-div{
-  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45% !important;
   height: 200px;
+}
+.sec2-div img{
+  width: 100%;
+  height: 100%;
 }
 .cart{
   display: flex;
   flex-direction: column;
   padding: 10px;
   /* border: 2px solid black; */
-  width: 220px;
+  width: 200px;
   border-radius: 10px;
   margin: 5px;
   background-color: white;

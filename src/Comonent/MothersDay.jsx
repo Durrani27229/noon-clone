@@ -23,12 +23,12 @@ const MothersDay = () => {
         <Btn title="View All" color="black" textColor="white" class="btn-res" />
       </div>
 
-      <div className='flex justify-center gap-4 mt-3  '>
+      <div className='mother flex justify-center gap-4 mt-3 min-h-[330px] '>
        {
             link.map((item,index) => {
                 return (
                     <div  key={index}>
-                        <img src={item}  className='h-full w-full'   alt="img" />
+                        <img src={item}     alt="img" />
                     </div>
                 )
             })

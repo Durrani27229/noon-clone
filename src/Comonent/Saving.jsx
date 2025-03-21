@@ -13,9 +13,9 @@ const Saving = () => {
     <div className='mt-3 mb-4 p-3 bg-[#feead5] rounded-2xl container mx-auto px-4'>
        <div className="flex justify-between items-center  px-3 ">
         <p className="font-res font-bold text-3xl flex gap-1  text-black  p-2">
-          RAMADAN's ESSENTIAL
+          MAXIMIZE
           <span className="font-res font-bold text-3xl text-red-500">
-             ESSENTIAL
+             YOUR SAVINGS
           </span>
         </p>
         <Btn title="View All" color="black" textColor="white" class="btn-res" />

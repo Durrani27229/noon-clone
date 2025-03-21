@@ -79,4 +79,7 @@
   .font-res{
     font-size: 17px !important;
  }
+ .header-links{
+  display: none !important;
+ }
 }

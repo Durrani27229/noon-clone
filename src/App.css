@@ -1,7 +1,23 @@
 .header{
-  /* display: flex; */
+  display: flex;
   background-color: #feee00;
-  height: 65px;
+  min-height: 65px;
+  justify-content: space-around;
+}
+.logo{
+  width: 10%;
+}
+.drop{
+  width: 10%;
+}
+.input{
+  width: 40%;
+}
+.login{
+  width: 15%;
+}
+.addCart{
+  width: 15%;
 }
 .header-links{
   display: flex;

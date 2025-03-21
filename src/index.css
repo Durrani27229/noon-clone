@@ -1,1 +1,30 @@
 @import "tailwindcss";
+@media only screen and (max-width: 992px) {
+  .hide-on-small1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hide-on-small {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+ .cart{
+    width: 70% !important;
+
+ }
+ .font-res{
+    font-size: 22px !important;
+ }
+ .btn-res{
+    font-size: 10px !important;
+    height: 30px !important;
+    padding: 5px 20px !important;
+ }
+ .footer-end{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+ }
+}

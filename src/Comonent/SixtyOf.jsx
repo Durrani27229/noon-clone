@@ -14,13 +14,13 @@ const SixtyOf = () => {
   return (
     <div className='mt-3 mb-4 p-3 bg-[#feead5] rounded-2xl container mx-auto px-4'>
     <div className="flex justify-between items-center  px-3 ">
-     <p className="font-bold text-3xl flex gap-1  text-red-500  p-2">
+     <p className="font-res font-bold text-3xl flex gap-1  text-red-500  p-2">
      Up TO 60% OFF
-       <span className="font-bold text-3xl text-black">
+       <span className="font-res font-bold text-3xl text-black">
            ELECTRONICS
        </span>
      </p>
-     <Btn title="View All" color="black" textColor="white" />
+     <Btn title="View All" color="black" textColor="white" class="btn-res" />
    </div>
 
    <div className='flex justify-center gap-4 mt-3  '>

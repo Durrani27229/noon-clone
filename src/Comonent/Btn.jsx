@@ -2,7 +2,7 @@ import React from 'react'
 
 const Btn = (props) => {
   return (
-   <button style={{
+   <button className={props.class} style={{
     backgroundColor: props.color,
     color: props.textColor,
     border: 'none',

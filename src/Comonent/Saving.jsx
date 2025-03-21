@@ -12,13 +12,13 @@ const Saving = () => {
   return (
     <div className='mt-3 mb-4 p-3 bg-[#feead5] rounded-2xl container mx-auto px-4'>
        <div className="flex justify-between items-center  px-3 ">
-        <p className="font-bold text-3xl flex gap-1  text-black  p-2">
+        <p className="font-res font-bold text-3xl flex gap-1  text-black  p-2">
           RAMADAN's ESSENTIAL
-          <span className="font-bold text-3xl text-red-500">
+          <span className="font-res font-bold text-3xl text-red-500">
              ESSENTIAL
           </span>
         </p>
-        <Btn title="View All" color="black" textColor="white" />
+        <Btn title="View All" color="black" textColor="white" class="btn-res" />
       </div>
 
       <div className='flex justify-center gap-4 mt-3  '>

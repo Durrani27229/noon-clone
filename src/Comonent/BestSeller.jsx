@@ -77,13 +77,13 @@ const BestSeller = () => {
   return (
     <div className="container mx-auto px-4 mt-5 mb-5 rounded-3xl pt-5 pb-5 bg-gray-100">
     <div className="flex justify-between items-center px-3 mb-2 ">
-      <p className="font-bold text-3xl flex gap-1  text-red-500 p-2">
+      <p className="font-bold font-res text-3xl flex gap-1  text-red-500 p-2">
         BEST SELLER IN
-        <span className="font-bold text-3xl text-black">
+        <span className="font-bold font-res text-3xl text-black">
            HOME APPLIANCES
         </span>
       </p>
-      <Btn title="View All" color="black" textColor="white" />
+      <Btn title="View All" color="black" textColor="white" class="btn-res" />
     </div>
     <div className="cart-main flex gap-2 bg-gray-100 rounded-2xl flex-wrap justify-center">
     {cartItems.map((item, index) => {

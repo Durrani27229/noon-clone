@@ -15,7 +15,7 @@ const Ramadan = () => {
     <div className='mt-3 mb-4 p-3 bg-[#feead5] rounded-2xl container mx-auto px-4'>
        <div className="flex justify-between items-center  px-3 ">
         <p className="font-res font-bold text-3xl flex gap-1  text-black  p-2">
-          RAMADAN's ESSENTIAL
+          RAMADAN's
           <span className="font-res font-bold text-3xl text-red-500">
              ESSENTIAL
           </span>

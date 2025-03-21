@@ -16,6 +16,10 @@ import Fashion from './Comonent/Fashion'
 import Saving from './Comonent/Saving'
 import BestSeller from './Comonent/BestSeller'
 import SixtyOf from './Comonent/SixtyOf'
+import Help from './Comonent/Help'
+import FooterLinks from './Comonent/FooterLinks'
+import Contact from './Comonent/Contact'
+import FooterEnd from './Comonent/FooterEnd'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,6 +43,10 @@ function App() {
       <Banner value="https://f.nooncdn.com/mpcms/EN0001/assets/aa5f61a8-3ce7-43e3-b9ce-006988531586.gif" />
       <BestSeller />
       <SixtyOf />
+      <Help />
+      <FooterLinks />
+      <Contact />
+      <FooterEnd />
     </>
   )
 }

@@ -70,3 +70,22 @@
   margin: 5px;
   background-color: white;
 }
+
+.footer-banner{
+  background-color: #f3f4f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.footer-links{
+
+}
+ul{
+  display: flex;
+}
+ul li {
+  padding: 0px 10px;
+  font-size: 10px;
+
+}

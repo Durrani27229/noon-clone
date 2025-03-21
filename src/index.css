@@ -76,4 +76,7 @@
     flex-direction: column !important;
     gap: 10px !important;
   }
+  .font-res{
+    font-size: 17px !important;
+ }
 }
